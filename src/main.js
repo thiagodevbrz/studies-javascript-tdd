@@ -1,7 +1,7 @@
-const i = 10
+const i = 10;
 
-function e(i){
-  return i
+function e(ef) {
+  return ef;
 }
 
 e(i);
