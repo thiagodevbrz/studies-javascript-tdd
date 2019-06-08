@@ -1,5 +1,7 @@
-var i = 2;
+const i = 10
 
-console.log(i);
+function e(i){
+  return i
+}
 
-
+e(i);
