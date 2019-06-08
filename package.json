@@ -4,7 +4,9 @@
   "description": "Biblioteca do curso de JS com TDD na prática",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "preprush":"npm run lint"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/thiagodevbrz/js-tdd-course/issues"
   },
-  "homepage": "https://github.com/thiagodevbrz/js-tdd-course#readme"
+  "homepage": "https://github.com/thiagodevbrz/js-tdd-course#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "husky": "^2.4.0"
+  },
+  "dependencies": {}
 }
